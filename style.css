@@ -1,13 +1,18 @@
 *{
     padding: 0;
     margin: 0;
-    
+    font-family: sans-serif;  
     box-sizing: border-box;
     background-color: white;
 }
 
 ul{
     list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
 }
 
 html{
@@ -36,6 +41,7 @@ nav{
     padding: 1.5rem;
     display: flex;
     justify-content: space-between;
+    margin: 0 0 1rem 0;
 }
 
 .logo{
@@ -49,14 +55,132 @@ nav{
 }
 
 .searchDiv{
-    width: clamp(12rem, 30vw, 24rem);
-    
-    border: 2px solid black;
+    width: clamp(12rem, 32vw, 24rem);
+    height: 1.4rem;
+    border: 2px solid grey;
+    padding: 0 0 0 0.2rem;
 }
 
 .searchDiv input{
     border: none;
-    width: 70%;
-    height: 1.8rem;
-    background-color: black;
+    width: 90%;
+    height: 1rem;
+}
+
+.searchDivMain{
+    display: flex;
+}
+
+.searchDivMain button{
+    height: 1.4rem;
+    width: 3.5rem;
+    background-color: rgb(248, 249, 250);
+    font-weight: 600;
+    border: 2px solid grey;
+    font-size: 0.7rem;
+}
+
+.pages{
+    display: flex;
+    gap:4%;
+    padding: 0.4rem 0;
+}
+
+.pages li{
+    font-size: 0.7rem;
+}
+
+.body{
+    display: flex;  
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.texth1{
+    font-size: 0.8rem;
+    padding: 0 0 0.4rem 0;
+    border-bottom: 1px solid grey;
+}
+
+.contents li{
+    font-size: 0.6rem;
+    
+}
+
+.contents{
+    margin: 0.5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.texth2{
+    font-size: 1.1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    padding: 0.3rem;
+}
+
+.texth3{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.mininav{
+    margin: 0.4rem 0;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.mininav ul{
+    gap: 0.3rem;
+}
+
+.mininav li{
+    font-size: 0.7rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    
+}
+
+.mininav a{
+    color: black;
+}
+
+.infoPara{
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    padding: 0.3rem;
+    font-weight: 200;
+}
+
+.infoPara a{
+    color: #4e66cc;
+}
+
+.miniTable li{
+    font-size: 0.8rem;
+}
+
+.infoPara2{
+    font-size: 0.6rem;
+    font-family: sans-serif;
+    gap: 4%;
+    padding: 0.3rem
+}
+
+.miniTable{
+    border: 1px solid grey;
+    background-color: #ffffff;
+    padding: 2rem;
+    height: fit-content;
+}
+
+.divThree{
+    padding: 1rem;
+}
+
+.divThree input{
+    font-size: 0.8rem;
 }

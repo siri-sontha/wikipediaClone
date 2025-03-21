@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple English Wikipedia</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utilityClasses.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -24,12 +25,121 @@
             </div>
         </div>
 
+        <div class="searchDivMain">
         <div class="searchDiv">
             <i class="fa-solid fa-magnifying-glass fa-sm" style="color: #a0a0a0;"></i>
             <input type="text" placeholder="Search Wikipedia">
-            <button>Search</button>
         </div>
+        <button>Search</button>
+        </div>
+
+        <div>
+            <ul class="pages">
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">CreateAccount</a></li>
+                <li><a href="#">LogIn</a></li>
+            </ul>
+        </div>
+
     </nav>
+
+    <container class="body">
+
+        <div class="divOne">
+
+            <h1 class="texth1">Contents</h1>
+            <ul class="contents">
+                <li><a href="#">History</a></li>
+                <li><a href="#">Website Structure</a></li>
+                <li><a href="#">See also</a></li>
+                <li><a href="#">References</a></li>
+                <li><a href="#">External Links</a></li>
+            </ul>
+
+        </div>
+
+        <div class="divTwo">
+
+         <div class="flex justify-cont">
+            <div>
+                <h2 class="texth2">Simple English Wikipedia</h2>
+            </div>
+            <div>
+                <h3 class="texth3"><a href="#">66 languages</a></h3>
+            </div>
+         </div>
+
+         <div class="flex mininav justify-cont">
+            <ul class="flex">
+                <li><a href="#">Article</a></li>
+                <li><a href="#">Talk</a></li>
+            </ul>
+            <ul class="flex">
+                <li><a href="#">Read</a></li>
+                <li><a href="#">Edit</a></li>
+                <li><a href="#">View History</a></li>
+                <li><a href="#">Tools</a></li>
+            </ul>
+         </div>
+
+         <div class="flex">
+
+         <div class="info">
+            <p class="infoPara">From Wikipedia, the free encyclopedia</p>
+            <p class="infoPara">The <strong>Simple English Wikipedia </strong> is a modified <a href="#">English-language</a> edition of <a href="#">Wikipedia</a> written primarily in <a href="#">Basic English</a> and <a href="#">Learning English</a>.[3] It is one of seven Wikipedias written in an <a href="#">Anglic language</a> or <a href="#">English-based pidgin</a> or <a href="#">creole</a>. The site has the stated aim of providing an encyclopedia for "people with different needs, such as students, children, adults with <a href="#">learning difficulties</a>, and people who are trying to learn English."[4]</p>
+            <p class="infoPara">Simple English Wikipedia's <a href="#">basic</a> presentation style makes it helpful for beginners <a href="#">learning English</a>.[5] Its simpler word structure and syntax, while missing some nuances, can make information easier to understand when compared with the regular <a href="#">English Wikipedia</a>.</p>
+            <h2 class="texth2">History</h2>
+            <p class="infoPara">Simple English Wikipedia was launched on September 18, 2001.[1][2]</p>
+            <p class="infoPara">In 2012, <a href="#">Andrew Lih</a>, a <a href="#">Wikipedian</a> and author, told <a href="#">NBC News</a>' Helen A.S. Popkin that the Simple English Wikipedia does not "have a high standing in the <a href="#">Wikipedia community</a>", and added that it never had a clear purpose: "Is it for people under the age 14, or just a simpler version of complex articles?", wrote Popkin.[6]</p>
+            <p class="infoPara">Material from the Simple English Wikipedia formed the basis for One Encyclopedia per Child,[7] a project in <a href="#">One Laptop per Child</a>[8] that ended in 2014.[9]</p>
+            <p class="infoPara">As of March 2025, the site contains over 266,000 content pages. It has more than 1,572,000 registered users, of whom 1,502 have made an edit in the past month.[10]</p>
+            <h2 class="texth2">Website Structure</h2>
+            <p class="infoPara">The articles on the Simple English Wikipedia are usually shorter than their <a href="#">English Wikipedia</a> counterparts, typically presenting only basic information. Tim Dowling of <a href="#">The Guardian</a> newspaper explained that "the Simple English version tends to stick to commonly accepted facts".[11] The interface is also more simply labeled; for instance, the "Random article" link on the <a href="#">English Wikipedia</a> is replaced with a "Show any page" link; users are invited to "change" rather than "edit" pages; clicking on a <a href="#">red link</a> shows a "page not created" message rather than the usual "page does not exist".[12] The project encourages, but does not enforce, the use of a vocabulary of around 1,500 commonly used English words[3] that is based on <a href="#">Basic English</a>, an 850-word controlled natural language created by <a href="#">Charles Kay Ogden</a> in the 1920s.[11]</p>
+        </div>
+
+        <div class="miniTable">
+         
+            <img src="images/wikipedia.png" alt="wiki" width="150" height="150">
+            <img src="images/wikipedia-wordmark-en.svg" alt="logo">
+
+            <div>
+                <div>
+                    <div class="flex infoPara2"><p><strong>Type of site</strong></p>Online encyclopedia<p></p></div>
+                    <div class="flex infoPara2"><p><strong>Available in</strong></p><p>Basic English Learning</p></div>
+                    <div class="flex infoPara2"><p><strong>Owner</strong></p><p>Wikimedia Foundation</p></div>
+                    <div class="flex infoPara2"><p><strong>URL</strong></p><p>simple.wikipedia.org</p></div>
+                    <div class="flex infoPara2"><p><strong>Commercial</strong></p><p>No</p></div>
+                    <div class="flex infoPara2"><p><strong>Registration</strong></p><p>Optional</p></div>
+                    <div class="flex infoPara2"><p><strong>Launched</strong></p><p>September 18, 2001[1][2]</p></div>
+                    <div class="flex infoPara2"><p><strong>Content</strong></p><p>Creative Commons Attribution/</p></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="divThree">
+            <h2 class="texth2"><strong>Appearance</strong></h2>
+            <div>
+                <h2 class="texth2">Text</h2>
+                <input class="texth2" type="radio" name="Small" id="Small"> Small <br>
+                <input class="texth2" type="radio" name="Standard" id="Standard"> Standard <br>
+                <input class="texth2" type="radio" name="Large" id="Large"> Large <br>
+            </div>
+            <div>
+                <h2 class="texth2">Width</h2>
+                <input class="texth2" type="radio" name="Standard" id="Standard"> Standard <br>
+                <input class="texth2" type="radio" name="Wide" id="Wide"> Wide <br>
+            </div>
+            <div>
+                <h2 class="texth2">Color</h2>
+                <input class="texth2" type="radio" name="Automatic" id="Automatic"> Automatic <br>
+                <input class="texth2" type="radio" name="Light" id="Light"> Light <br>
+                <input class="texth2" type="radio" name="Dark" id="Dark"> Dark <br>
+            </div>
+            
+        </div>
+
+    </container>
     
 </body>
 </html>
