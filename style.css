@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    font-size: 24px;
+}
+
+@media screen and (max-width: 62em){
+    html{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 48em){
+    html{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 36em){
+    html{
+        font-size: 10px;
+    }
+}
+
+nav{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.logoText{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchDiv{
+    width: clamp(12rem, 30vw, 24rem);
+    
+    border: 2px solid black;
+}
+
+.searchDiv input{
+    border: none;
+    width: 70%;
+    height: 1.8rem;
+    background-color: black;
+}
